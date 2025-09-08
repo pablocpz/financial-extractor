@@ -1,0 +1,8 @@
+.env
+.git
+dist
+build
+.gitignore
+/expected_output
+/files
+file_data_extraction.ipynb
