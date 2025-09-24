@@ -276,7 +276,7 @@ def field_matching(DATA_FOLDER):
         return
 
     for md_path in md_files:
-        try:
+        try:        
             data = process_md_file(md_path)
             print(json.dumps(data, indent=4, ensure_ascii=False, default=str))
             save_json(data, md_path, out_root=DATA_FOLDER)
